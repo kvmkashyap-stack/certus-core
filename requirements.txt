@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+faiss-cpu
+pymupdf4llm
+python-docx
+pandas
+openpyxl
+numpy
