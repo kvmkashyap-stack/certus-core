@@ -1,9 +1,10 @@
 fastapi
 uvicorn
 requests
+numpy
 faiss-cpu
 pymupdf4llm
 python-docx
-pandas
-openpyxl
-numpy
+python-multipart
+tavily-python
+python-dotenv
