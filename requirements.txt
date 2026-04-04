@@ -7,4 +7,3 @@ python-docx
 pandas
 openpyxl
 numpy
-python-multipart
