@@ -1,3 +1,11 @@
+from fastapi import FastAPI, UploadFile, File
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn, shutil
+from services.research_service import handle_query
+from tools.vector_tool import process_and_store_file
+from fastapi.responses import FileResponse
+
+
 import os, uvicorn, shutil
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
